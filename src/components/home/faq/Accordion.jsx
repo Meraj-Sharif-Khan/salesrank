@@ -36,7 +36,7 @@ const Accordion = ({ index, question, answer }) => {
           </p>
         )}
       </div>
-      <button className="shrink-0 overflow-hidden inline-block relative w-[29px] h-[29px] pl-4 lg:pl-10">
+      <div className="shrink-0 overflow-hidden inline-block relative w-[29px] h-[29px] pl-4 lg:pl-10">
         <img
           className={`absolute top-[0] left-[50%] transition duration-300 ease-in-out ${
             isVisible ? "rotate-90" : ""
@@ -49,7 +49,7 @@ const Accordion = ({ index, question, answer }) => {
           src={accordionIcon}
           alt=""
         />
-      </button>
+      </div>
     </div>
   );
 };

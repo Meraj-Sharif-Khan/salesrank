@@ -25,25 +25,29 @@ const Social = () => {
           className=" h-[34px] w-[34px] rounded-full flex justify-center bg-white"
           href="/"
         >
-          <img className="object-scale-down" src={fbLogo} alt="" />
+          <img className="object-scale-down" src={fbLogo} alt="Facebook Icon" />
         </a>
         <a
           className=" h-[34px] w-[34px] rounded-full flex justify-center bg-white"
           href="/"
         >
-          <img className="object-scale-down" src={xLogo} alt="" />
+          <img className="object-scale-down" src={xLogo} alt="Twitter Icon" />
         </a>
         <a
           className=" h-[34px] w-[34px] rounded-full flex justify-center bg-white"
           href="/"
         >
-          <img className="object-scale-down" src={inLogo} alt="" />
+          <img className="object-scale-down" src={inLogo} alt="LinkedIn Icon" />
         </a>
         <a
           className=" h-[34px] w-[34px] rounded-full flex justify-center bg-white"
           href="/"
         >
-          <img className="object-scale-down" src={igLogo} alt="" />
+          <img
+            className="object-scale-down"
+            src={igLogo}
+            alt="Instagram icon"
+          />
         </a>
       </div>
     </div>
