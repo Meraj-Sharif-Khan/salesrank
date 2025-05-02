@@ -3,6 +3,7 @@ import { Hero } from "./hero/Hero";
 import Faq from "./faq/Faq";
 import Course from "./course/Course";
 import AiCoach from "./aiCoach/AiCoach";
+import Testimonials from "./testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <AiCoach />
         <Course />
         <Faq />
+        <Testimonials />
       </div>
     </div>
   );
