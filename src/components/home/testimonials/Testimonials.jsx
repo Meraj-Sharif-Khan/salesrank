@@ -1,6 +1,6 @@
 import React from "react";
 import arrowLight from "../../../assets/icons/arrow-light.svg";
-import arrowDark from "../../../assets/icons/arrow-Dark.svg";
+import arrowDark from "../../../assets/icons/arrow-dark.svg";
 
 const Testimonials = () => {
   return (
