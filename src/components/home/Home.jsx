@@ -1,7 +1,7 @@
 import React from "react";
 import { Hero } from "./hero/Hero";
-import Course from "./course/course";
 import Faq from "./faq/faq";
+import Course from "./course/Course";
 import AiCoach from "./aiCoach/AiCoach";
 
 const Home = () => {
