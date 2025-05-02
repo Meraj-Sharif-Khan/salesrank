@@ -1,6 +1,6 @@
 import React from "react";
 import { Hero } from "./hero/Hero";
-import Faq from "./faq/faq";
+import Faq from "./faq/Faq";
 import Course from "./course/Course";
 import AiCoach from "./aiCoach/AiCoach";
 
