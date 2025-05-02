@@ -1,6 +1,6 @@
 # SalesRank.ai - A website Landing page Development Task by Softvence.
 
-## They provided Figma design and ask for below requirements
+## Softvence have provided Figma design and ask for below requirements
 
 1. Implement the website according to the provided Figma design.
 2. Follow best practices and clean architecture.
@@ -14,8 +14,8 @@
 - [Live Links](#links)
 - [Built with](#built-with)
 - [Run Locally](#run-locally)
-- [Author](#author)
 - [Screenshot](#screenshots)
+- [Author](#author)
 
 ## Task summary:
 
@@ -60,11 +60,11 @@ This was an awesome experience for me. This task helped me to strengthen my Reac
 
 ### Desktop View
 
-![](./public/salesrank.netlify.app_.png)
+![](./public/desktopView.png)
 
 ### Mobile View
 
-![](<./public/salesrank.netlify.app_%20(1).png>)
+![](./public/mobileView.png)
 
 ## Author
 
