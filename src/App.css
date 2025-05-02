@@ -31,6 +31,13 @@ button:active {
 .shadow-custom {
   box-shadow: 15px 16px 20px rgba(0, 0, 0, 0.08);
 }
+
+.footer-bg {
+  background-image: url(backgroundNoise.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* nav */
 
 .nav {

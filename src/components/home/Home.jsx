@@ -4,6 +4,7 @@ import Faq from "./faq/Faq";
 import Course from "./course/Course";
 import AiCoach from "./aiCoach/AiCoach";
 import Testimonials from "./testimonials/Testimonials";
+import Footer from "../footer/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Course />
         <Faq />
         <Testimonials />
+        <Footer />
       </div>
     </div>
   );
