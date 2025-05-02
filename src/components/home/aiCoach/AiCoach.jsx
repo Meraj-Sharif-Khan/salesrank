@@ -1,5 +1,7 @@
 import React from "react";
 import PromptWindow from "./PromptWindow";
+import RealtimeAnalysis from "./RealtimeAnalysis";
+import QuickActions from "./QuickActions";
 
 const AiCoach = () => {
   return (
@@ -13,8 +15,12 @@ const AiCoach = () => {
             Take a Suggestion Coaching{" "}
           </h2>
         </div>
-        <div className="mt-8 lg:mt-[60px]">
+        <div className="mt-8 lg:mt-[60px] flex flex-col lg:flex-row flex-wrap justify-center lg:justify-start gap-3 lg:gap-6 items-center">
           <PromptWindow />
+          <div className="flex flex-col gap-6">
+            <RealtimeAnalysis />
+            <QuickActions />
+          </div>
         </div>
       </div>
     </div>

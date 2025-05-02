@@ -6,6 +6,7 @@ import Home from "./components/home/Home";
 import AllCourse from "./components/home/course/AllCourse";
 import ScrollToTop from "./services/scrollToTop";
 import NotFound from "./components/NotFound";
+import AiCoach from "./components/home/aiCoach/AiCoach";
 function App() {
   return (
     <React.Fragment>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/allCourse" element={<AllCourse />} />
+          <Route path="/aicoach" element={<AiCoach />} />
         </Routes>
       </BrowserRouter>
     </React.Fragment>
