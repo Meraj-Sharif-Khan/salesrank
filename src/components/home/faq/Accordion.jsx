@@ -5,15 +5,12 @@ const Accordion = ({ index, question, answer }) => {
   const [visibleIndex, setVisibleIndex] = useState(false);
   const isVisible = index === visibleIndex;
 
-  console.log(visibleIndex);
-
   const handleVisible = (i) => {
     if (visibleIndex || visibleIndex === 0) {
       setVisibleIndex(false);
     } else {
       setVisibleIndex(i);
     }
-    console.log(visibleIndex);
   };
 
   return (

@@ -10,7 +10,6 @@ const PromptWindow = () => {
         "Hello! I'm your AI sales coach. How can I help you improve your sales performance today?",
     },
   ]);
-  console.log(prompts);
   return (
     <div className="h-[90vh] w-full max-w-[787px] max-h-[577px] flex flex-col bg-white rounded-xl">
       <h2 className="pt-4 pb-6 pl-8 font-[Manrope] font-bold lg:text-lg/[120%]">
