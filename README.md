@@ -20,7 +20,17 @@
 ## Task summary:
 
 <p align="justify">
-This was an awesome experience for me. This task helped me to strengthen my React and Tailwind CSS Skills
+This was an awesome experience for me. This task helped me to strengthen my React and Tailwind CSS Skills.
+<br>With this design, I have implemented 3 sections with dynamic rendering.
+<br>To mimic data from backend, I have created an array of object and component will render based on the data.
+<br>
+<br>Dynamic section:
+<ul>
+  <li>Courses : course card will render (in homepage 2 and view all button will take to new page to show all course) based on date from src/services/getFakeCourse.js</li>
+  <li>FAQ : FAQ will render based on data from src/services/getFakeQuestion.js </li>
+  <li>Testimonials: Testimonials will render based on data from src/services/getFakeTestimonials.js </li>
+</ul>
+<i> N.B : with this approach, connecting with backend will be easier because just need to replace array of object with API <i>
 </p>
 
 ## Site Analytics Report
